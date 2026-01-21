@@ -112,4 +112,5 @@ def converter_e_exibir(texto_atual):
     else:
         print("HEX: -\nDEC: -\nOCT: -\nBIN: -")
 ```
-![MSVCRT](https://img.shields.io/badge/msvcrt-blue?style=for-the-badge&logo=visualstudio&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![MSVCRT](https://img.shields.io/badge/msvcrt-Windows%20Only-blue?style=for-the-badge&logo=windows)
