@@ -50,14 +50,58 @@ case 4:
             print(f"\nThe number {numero} was successfully entered!")
 ```
 
+### clear()
+
+```python
+case 5:
+            lista.clear()  # Remove todos os itens da lista.
+            if len(lista) == 0:
+                print("\nAll items in the list were successfully removed.")
+```
+
+### index(x)
+
+```python
+case 6:
+            numero = int(input("\nEnter the key of the element you wish to query: "))
+            if numero in lista:
+                print(f"\nThe index of the number {numero} is {lista.index(numero)}") # Retorna o índice do primeiro item com valor x
+```
 
 
+### count(x)
 
+```python
+case 7:
+            numero = int(input("\nEnter the key of the element you wish to query: "))
+            if numero in lista:
+                print(f"The number {numero} appears {lista.count(numero)} time(s)") # Retorna o número de vezes que x aparece.
+```
 
+### sort()
 
+```python
+case 8:
+            lista.sort() # Ordena os itens da lista in place (na própria lista).
+            print("List sorted successfully!")
+```
 
+### reverse()
 
+```python
+case 9:
+            lista.reverse() # Inverte a ordem dos elementos.
+            print("List elements successfully reversed!")
+```
 
+Outros métodos internos do Python não comentados:
+
+1. lista.extend(iterable): Adiciona todos os itens de um iterável (outra lista, tupla, etc.) ao fim da lista.
+
+2. list.copy(): Retorna uma cópia rasa da lista.
+
+3. list.pop([i]): Remove e retorna o item na posição dada. Se nenhum índice for especificado, remove o último.
+- O método pop() será comentado quando estudar pilhas
 
 
 
