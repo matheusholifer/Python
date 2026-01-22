@@ -39,3 +39,33 @@ while opcao != 0:
 ```
 
 - Note o uso append (Adiciona um item ao fim da lista) e remove (Remove o primeiro item cujo valor seja igual a x)
+
+### insert(i, x)
+
+```python
+case 4:
+            numero = random.randint(1, 1000);
+            posicao = int(input("\nEnter the position where you want to insert an element: "))
+            lista.insert(posicao, numero) # Insere um item em uma posição dada.
+            print(f"\nThe number {numero} was successfully entered!")
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
