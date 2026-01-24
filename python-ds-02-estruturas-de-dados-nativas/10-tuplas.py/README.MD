@@ -39,3 +39,19 @@ melhores_atores_spiderman = ('Tobey Maguire',) # Obrigatório uso de vírgula
 ```
 
 - Tuplas são sequências imutáveis.
+
+- Use enumerate() para obter o índice e o valor.
+
+```python
+for i, v in enumerate(['tic', 'tac', 'toe']):
+    print(i, v)
+```
+
+- Use zip() para agrupar elementos.
+
+```python
+perguntas = ['nome', 'missão', 'cor']
+respostas = ['Lancelot', 'o Graal', 'azul']
+for p, r in zip(perguntas, respostas):
+    print(f'Qual seu {p}? É {r}.')
+```
