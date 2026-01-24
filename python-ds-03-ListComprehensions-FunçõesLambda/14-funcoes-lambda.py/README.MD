@@ -46,3 +46,4 @@ print(mylambdalib.velocistas_ordenados) # Saída: [('Vision', 3), ('Wally West',
 print(mylambdalib.status_idade(20)) # Saída: Maior de idade
 
 ```
+- Evitar lambdas se a lógica for confusa. Se precisar de condicionais complexas (além de um simples if/else ternário) ou múltiplas linhas, usar def.
