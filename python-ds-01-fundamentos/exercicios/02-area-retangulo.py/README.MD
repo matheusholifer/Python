@@ -3,6 +3,6 @@
 ```python
 area_retangulo = lambda b, h: b * h
 
-b, h = map(int, input("\nInsira a base e a altura do retângulo em cm: "))
+b, h = map(int, input("\nInsira a base e a altura do retângulo em cm: ").split())
 print(f"\n\tA área do retâangulo é: {area_retangulo(b,h)}cm²")
 ```
