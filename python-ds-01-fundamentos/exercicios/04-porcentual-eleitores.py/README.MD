@@ -12,5 +12,5 @@ parcela_nulos = (votos_nulos / total_eleitores) * 100
 parcela_validos = (votos_validos / total_eleitores) * 100
 
 # Imprime o relátorio
-print(f"\nTotal de eleitores: {total_eleitores}\n\n\tVotos brancos: {votos_brancos} = {parcela_brancos}%\n\tVotos nulos: {votos_nulos} = {parcela_nulos}%\n\tVotos válidos: {votos_validos} = {parcela_validos}%")
+print(f"\nTotal de eleitores: {total_eleitores}\n\n\tVotos brancos: {votos_brancos} = {parcela_brancos:.2f}%\n\tVotos nulos: {votos_nulos} = {parcela_nulos:.2f}%\n\tVotos válidos: {votos_validos} = {parcela_validos:.2f}%")
 ```
