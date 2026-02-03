@@ -1,0 +1,15 @@
+{
+    "personagem": "Nicolau Copérnico",
+    "civilizacao": "Era de Aristóteles / Modelo Geocêntrico",
+    "status": "Desidratado",
+    "inventario": [
+        "Relógio de sol",
+        "Pergaminhos de observação",
+        "Ampulheta"
+    ],
+    "preferencias": {
+        "modelo_cosmologico": "Heliocêntrico",
+        "previsao_climatica": "Era Estável"
+    },
+    "objetivo": "Determinar a estrutura do universo para evitar a reidratação em chamas"
+}
