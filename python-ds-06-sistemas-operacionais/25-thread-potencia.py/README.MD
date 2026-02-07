@@ -1,4 +1,4 @@
-Um cósigo intridutório a Multithreading em Python.
+Um código intridutório a Multithreading em Python.
 
 ```python
 import os
