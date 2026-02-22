@@ -1,6 +1,6 @@
-'''
-    15) Ler um valor e escrever se é positivo ou negativo (considere o valor zero como positivo).
-'''
+15) Ler um valor e escrever se é positivo ou negativo (considere o valor zero como positivo).
+
+```python
 
 # valor = int(input("\nInsira um valor:"))
 
@@ -44,3 +44,4 @@ else:
     print(f"O número {x} é positivo!")
 
 print("-" * 40)
+```
