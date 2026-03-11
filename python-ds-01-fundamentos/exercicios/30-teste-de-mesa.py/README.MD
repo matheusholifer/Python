@@ -21,12 +21,13 @@
 
     Faça um teste de mesa e complete o quadro a seguir:
 
-    X   Y   Z   RESPOSTA
-    3   2  11      B
-   150  3  455     C
-    7  -1  -2      A
-   -2   5  -5      A
-   50   3  155     C
+    | X   | Y  | Z   | RESPOSTA |
+    |-----|----|-----|----------|
+    | 3   | 2  | 11  | B        |
+    | 150 | 3  | 455 | C        |
+    | 7   | -1 | -2  | A        |
+    | -2  | 5  | -5  | A        |
+    | 50  | 3  | 155 | C        |
 
 ```python
 x = int(input("\nInsira o valor de 'x': "))
