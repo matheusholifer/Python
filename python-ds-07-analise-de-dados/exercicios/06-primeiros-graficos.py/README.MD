@@ -1,0 +1,1 @@
+06) Primeiros Gráficos: Use o Matplotlib para criar um gráfico de barras com os dados agrupados no exercício anterior. Em seguida, use o Seaborn (sns.histplot) para visualizar a distribuição de uma variável numérica.
